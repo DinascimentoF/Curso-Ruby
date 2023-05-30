@@ -1,0 +1,15 @@
+#O usuário precisa digitar o seu nome
+print "Digite o seu nome: "
+nome = gets.chomp
+
+#O usuário precisa digitar o seu sobrenome
+print "Digite o seu sobrenome: "
+sobrenome = gets.chomp
+
+#O usuário precisa digitar a sua idade em números inteiros
+print "Digite a sua idade: "
+idade = gets.chomp.to_i
+
+#mensagem que irá aparecer após o usuário digitar todas as informações solicitadas
+
+puts "A idade do usuário: #{nome} #{sobrenome} é #{idade} anos."
